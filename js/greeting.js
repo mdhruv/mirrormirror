@@ -2,11 +2,11 @@ var gretting_key = '1bWKEX2i2KeVBxGNDZsA90rQ25U0L8G9mfRwpxcKBJQg';
 
 var updateGreeting = function () {
   Tabletop.init( { key: gretting_key,
-                   callback: showInfo,
+                   callback: renderGreeting,
                    simpleSheet: true } )
 };
 
-function showInfo(data, tabletop) {
+function renderGreeting(data, tabletop) {
   var greetings = [];
   for(i = 0; i < data.length; i++) {
     for(prop in data[i]) {

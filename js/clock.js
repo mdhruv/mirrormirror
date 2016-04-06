@@ -1,7 +1,7 @@
 var datetime = null,
 date = null;
 
-var update = function () {
+var updateTime = function () {
     date = moment(new Date())
     var html = '<p>' + date.format('dddd, MMMM Do') + '</p>';
     html += '<p id="time">' + date.format('h:mm a') + '</p>';
@@ -10,6 +10,6 @@ var update = function () {
 
 $(document).ready(function() {
     datetime = $('#date');
-    update();
-    setInterval(update, 10000);
+    updateTime();
+    setInterval(updateTime, 10000);
 });

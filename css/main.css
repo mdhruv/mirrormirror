@@ -139,26 +139,19 @@ section {
     padding: 10px;
 }
 
-#pianobar img {
-    height: 100px;
+
+#actionlist {
+    text-align: left;
+    font-size: 1.25em;
+    position: fixed;
+    top: 35%;
+    width: 100%;
+    left: 50px;
 }
 
-#pianobar p {
-    font-size: 1em;
-    border: 
+#actionlistTitle {
+    font-size: 2.0em;
 }
-
-#pianobar {
-    float: left;
-    border: white;
-}
-
-#pianobar h1 {
-    font-size: 1.5em;
-}
-
-
-
 
 
 
