@@ -3,5 +3,20 @@ api_version: 1
 threadsafe: true
 
 handlers:
+- url: /css
+  static_dir: css
+
+- url: /js
+  static_dir: js/
+  
+- url: /js/vendor
+  static_dir: js/vendor
+
 - url: /.*
-  script: helloworld.app
+  script: mirrormirror.app
+
+libraries:
+- name: webapp2
+  version: latest
+- name: jinja2
+  version: latest
