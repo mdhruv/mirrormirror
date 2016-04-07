@@ -103,10 +103,11 @@ body {
 #greeting {
     font-family: 'Neucha', cursive;
     text-align: center;
-    font-size: 3em;
+    font-size: 2em;
     position: fixed;
-    bottom: 0;
-    width: 100%; 
+    bottom: 10px;
+    left: 2%;
+    width: 96%;
 }
 
 canvas {
@@ -118,17 +119,16 @@ canvas {
 
 #date {
     float: left;
-    width: 400px;
-<!--    height:500px;-->
+    width: auto;
     margin: 0 0 0 0;
 }
 
 #date p:first-child{
-    font-size: 1.85em;
+    font-size: 2.5em;
 }
 
 #time {
-    font-size: 4em;
+    font-size: 6.5em;
     padding: 0px;
 }
 
@@ -142,7 +142,7 @@ section {
 
 #actionlist {
     text-align: left;
-    font-size: 1.25em;
+    font-size: 1.5em;
     position: fixed;
     top: 35%;
     width: 100%;
