@@ -101,9 +101,8 @@ body {
 } 
 
 #greeting {
-    font-family: 'Neucha', cursive;
     text-align: center;
-    font-size: 2em;
+    font-size: 1.78em;
     position: fixed;
     bottom: 10px;
     left: 2%;
@@ -124,12 +123,12 @@ canvas {
 }
 
 #date p:first-child{
-    font-size: 2.5em;
+    font-size: 3.0em;
 }
 
 #time {
     font-size: 6.5em;
-    padding: 0px;
+    padding: 10px;
 }
 
 section {
@@ -139,6 +138,9 @@ section {
     padding: 10px;
 }
 
+#actionlistTitle {
+    font-size: 1.5em;
+}
 
 #actionlist {
     text-align: left;
@@ -148,17 +150,6 @@ section {
     width: 100%;
     left: 50px;
 }
-
-#actionlistTitle {
-    font-size: 2.0em;
-}
-
-
-
-
-
-
-
 
 /* ==========================================================================
    Helper classes
